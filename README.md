@@ -9,7 +9,7 @@ Now you are ready to work with project. Just run `npm start` and all styles will
 
 ### Folder structure
 
-* styles
+* styles/
   * main.less <- has only imports of all needed files
   * reset.less <- static reset file
   * constants.less <- here you will find constants used across the project
