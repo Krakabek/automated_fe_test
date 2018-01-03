@@ -1,0 +1,33 @@
+body, html{
+	height: 100%;
+}
+
+
+.layout{
+	&__h1{
+		font-size: 32px;
+		text-align: center;
+
+		&--primary{
+			color: @color-primary;
+			transition: color 200ms ease;
+			cursor: pointer;	
+
+			&:hover{
+				color: @color-primary-hover;
+			}
+		}
+
+	}
+}
+
+.boxes{
+	display: flex;
+	justify-content: space-around;
+
+	&__item{
+		padding: 25px;
+		box-sizing: border-box;
+		background-color: @color-primary;
+	}
+}
