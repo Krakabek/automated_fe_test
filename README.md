@@ -3,7 +3,7 @@
 ### Preparation
 1. Navigate to project folder via terminal
 2. Run `npm i`
-3. Run `gulp i -g`
+3. Run `npm i gulp -g`
 
 Now you are ready to work with project. Just run `npm start` and all styles will compile. This also initiates a watcher that will look for changes you've made.
 
